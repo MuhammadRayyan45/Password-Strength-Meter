@@ -19,7 +19,7 @@ st.write("Enter your password below to check its security level. 🔍")
 
 #function to check password strength
 def check_password_strength(password):
-    score +=1
+    score = 0
     feedback = []
 
     if len(password) >= 8:
